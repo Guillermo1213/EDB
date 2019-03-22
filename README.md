@@ -1,24 +1,9 @@
 # Eat-Da-Burger
-If you can think of it, we can  Node.js/Express/MySQL/Handlebars/Materialize
+If you can think of it, we can spell it! That's right, unlike the way this project was presented to me, I will explain that all we are doing is accepting a typed burger description and then eating or not! So.. what does that mean exactly? Check it out, it includes Handlebars/Express/MySQL all on the beauty that is Node.
 
-This application demonstrates a simple full stack application with a front end implemented with HTML/CSS and elements from the Materialize framework and the backend implemented with Node.js and Express. HTML templating is done with the help of Handlebars.
-
-The user may enter any burger name to add it to the menu. This also adds the new burger entry into the MySQL database. The initial burger entry is added as *available* on the menu and placed on the left side of the screen. The user may then eat any burger by clicking on it, which moves it into the adjacent column and updates its status accordingly in the database.
+Go ahead and enter any burger name that your heart desires! This will add the burger entry into the MySQL database. This will render it as being *ready* on the menu whilst placing it on the left. You can then devour the burger by clicking on it,this will move the burger to the right side and update it accordingly in the database.
 
 ## Usage
-
-To run the application locally
-	
-Install the application dependencies.
-
-	cd eat-da-burger
-	npm install
-	
-Finally, run the node server locally.
-
-	node server.js
-	
-Now, open the local application on port 3000 at the URL: `http://localhost:3000/`.
 
 ## Contribution
 Currently just a learning project by yours truly, [Guillermo Garcia Jr.](https://guillermo1213.github.io/Bootstrap-Portfolio/),if you have any questions, comments, or concerns you can find my portfolio by clicking on my name. Thanks for taking time to readme! :kissing_heart:

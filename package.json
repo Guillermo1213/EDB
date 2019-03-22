@@ -1,0 +1,28 @@
+{
+  "name": "EDB",
+  "version": "1.0.0",
+  "description": "If you can think of it, we can spell it! That's right, unlike the way this project was presented to me, I will explain that all we are doing is accepting a typed burger description and then eating or not! So.. what does that mean exactly? Check it out, it includes Handlebars/Express/MySQL all on the beauty that is Node.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guillermo1213/EDB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guillermo1213/EDB/issues"
+  },
+  "homepage": "https://github.com/Guillermo1213/EDB#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "handlebars": "^4.1.1",
+    "method-override": "^3.0.0",
+    "mysql": "^2.16.0"
+  }
+}
