@@ -5,9 +5,12 @@
 	margin-top: 5%;
 }
 
-
 header{
 	font-size: 4rem;
 	font-weight: bolder;
 	text-align: center;
 }
+
+#burgerForm{
+	text-align: center;
+ }

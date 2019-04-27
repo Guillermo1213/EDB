@@ -3,7 +3,7 @@ var bodyParser = require('body-parser');
 var exphbs = require('express-handlebars');
 var method_override = require('method-override');
 
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 8080;
 
 var app = express();
 app.use(express.static(process.cwd() + '/public'));
